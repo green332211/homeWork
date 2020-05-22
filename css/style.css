@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 0px 1px #ccc;
+    box-sizing: border-box;
+}
+
+/* header */
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100%;
+    color: white;
+    background-color: #445161;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrp {
+    width: 400px;
+    float: left;
+}
+
+.main-header-title {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.main-header-list {
+    margin: 0;
+    list-style: none;
+    padding: 0 0 0 20px;
+    line-height: 24px;
+}
+
+.main-header-list-item {
+    position: relative;
+}
+
+.main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 12px;
+    position: absolute;
+    top: 8px;
+    left: -18px;
+    background-image: url('../img/tick.png');
+    background-size: cover;
+}
+
+.main-header-img {
+    display: block;
+    width: 469px;
+    min-height: 214px;
+    background-color: #fff;
+    float: right;
+    color: #000;
+}
+
+/* about your product */
+.about-product {
+    width: 100%;
+    display: flex;
+}
+
+.about-product-title {
+    display: block;
+    margin: 0 0 10px 0;
+    width: 254px;
+    height: 28px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.about-product-video {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    margin-left: 100px;
+}
+
+.about-product-item {
+    width: 649px;
+    min-height: 63px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+}
+
+/* dignity */
+.dignity {
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dignity-title {
+    width: 100%;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.dignity-list {
+    width: 48%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dignity-list-item {
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 25px;
+}
+
+.dignity-list-item:last-child {
+    margin: 0;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #445161;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* screenshots */
+.screenshots {
+    width: 100%;
+    display: flex;
+}
